@@ -8,8 +8,9 @@ export async function POST(request) {
       "https://brimink--ai-image-classifier-api-classify-image.modal.run/"
     );
     apiUrl.searchParams.append("image_url", imageUrl);
+    
     if (modelVariant !== "default") {
-      apiUrl.searchParams.append("model_variant", modelVariant);
+      apiUrl.searchParams.append("model_v", modelVariant);
     }
 
     const response = await fetch(apiUrl.toString());

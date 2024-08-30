@@ -78,9 +78,9 @@ export default function Home() {
                     <SelectValue placeholder="Select a model variant" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="default">Default</SelectItem>
-                    <SelectItem value="fast">Fast</SelectItem>
-                    <SelectItem value="accurate">Accurate</SelectItem>
+                    <SelectItem value="v1">Default</SelectItem>
+                    <SelectItem value="v2">v2</SelectItem>
+                    <SelectItem value="lucid">Lucid</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
